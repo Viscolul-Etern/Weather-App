@@ -1,0 +1,72 @@
+.search
+{
+    text-align: center;
+}
+
+label{
+    font: arial;
+    font-size: 30px;
+    color: white;
+}
+
+input{
+    border-radius: 5px;
+    border: 3px solid rgb(28, 174, 231);
+}
+
+button{
+    padding: 10px 15px;
+    border-radius: 10px;
+    border-color: rgb(28, 174, 231);
+    background-color: rgb(28, 174, 231);
+    color: white;
+}
+
+body{
+  background-color: rgb(117, 116, 116);
+}
+
+.dates
+{
+    background-color: rgb(28, 174, 231);
+    margin-top: 4%;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 500px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+
+@media (max-width: 1281px) and (min-width: 301px)
+{
+    .dates{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    input {
+        font-size: 27px;
+    }
+
+    button{
+        font-size: 27px;
+    }
+}
+
+@media (max-width: 300px)
+{
+    .dates{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    input {
+        font-size: 20px;
+    }
+
+    button{
+        font-size: 20px;
+    }
+}
+
