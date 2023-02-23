@@ -104,7 +104,6 @@ function display(data)
         break;
 
         case 'Clear':
-        if(date.getHours() > 18)
         icon.src = "sun.png";
         break;
 
