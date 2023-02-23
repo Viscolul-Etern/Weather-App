@@ -105,8 +105,7 @@ function display(data)
 
         case 'Clear':
         if(date.getHours() > 18)
-        icon.src = "moon.png";
-            else icon.src = "sun.png";
+        icon.src = "sun.png";
         break;
 
         case 'Rain':
